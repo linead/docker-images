@@ -1,6 +1,6 @@
 FROM delitescere/jdk
 
-MAINTAINER "Aaron Walker" <aaronpwalker@gmail.com>
+MAINTAINER "Daniel Fullarton" <linead@gmail.com>
 
 ENV MAVEN_VERSION 3.3.3
 
@@ -21,4 +21,3 @@ VOLUME ["/app"]
 WORKDIR /app
 
 ENTRYPOINT ["/usr/share/java/maven/bin/mvn"]
-CMD ["-v"]
