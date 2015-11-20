@@ -1,4 +1,4 @@
-FROM jentrata/maven
+FROM linead/maven
 
 MAINTAINER "Daniel Fullarton" <linead@gmail.com>
 
